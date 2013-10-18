@@ -1,0 +1,26 @@
+{
+    "name": "hummus.js",
+    "version": "0.0.1",
+    "description": "Re-Route JS Libraries Ajax calls to local routes",
+    "main": "hummus.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akhoury/hummus.git"
+    },
+    "keywords": [
+        "hummus",
+        "ajax",
+        "reroute",
+        "api",
+        "route",
+        "intercept"
+    ],
+    "author": "akhoury",
+    "license": "WTFPL 2.0",
+    "bugs": {
+        "url": "https://github.com/akhoury/hummus/issues"
+    }
+}

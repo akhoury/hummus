@@ -1,0 +1,38 @@
+<h2>Hummus test page</h2>
+
+<p>
+    <label>Ajax Url:</label>
+    <input id="url" type="text" value="#hummus"/>
+    <button onclick="onApiButton();">
+        request
+    </button>
+    <div id="results"></div>
+</p>
+
+
+<!-- Hummus requires jquery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- this is hummus -->
+<script src="hummus.js"></script>
+
+<script>
+
+
+    // test
+    new Hummus(
+            [
+                {$: window.jQuery || null},
+                {$: window.Backbone || null}
+            ]
+    );
+
+    function onApiButton(e){
+        var url = $("#url").val();
+        $.ajax({
+            url: url,
+            success: function(data){console.log(url + " url, ajax success"); $("#results").empty().text(data);},
+            error: function(){console.log(url + " url, ajax error");}
+        });
+    }
+</script>
