@@ -1,4 +1,4 @@
-## Pesta Readme
+## Hummus Readme
 
 Ever wanted to intercept jQuery's or Backbone's ajax calls to do something else first, then make the call?
 or maybe consolidate multiple ajax calls to multiple servers, in one Client-Side restful route?

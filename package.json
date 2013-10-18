@@ -1,7 +1,7 @@
 {
     "name": "hummus.js",
     "version": "0.0.1",
-    "description": "Re-Route JS Libraries Ajax calls to local routes",
+    "description": "Intercept, ReRoute, Condition, JS Libraries function calls",
     "main": "hummus.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
