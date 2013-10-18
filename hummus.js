@@ -1,6 +1,9 @@
 /*
  Project: Hummus
- Description: intercepts, redirects, consolidates Ajax calls for various libraries, for various reasons, and doesn't care what you think.
+ Description: intercepts, redirects, consolidates Ajax calls (or any other functions)
+  > for various libraries,
+  > for various reasons,
+  > and doesn't care what you think.
  Version: 0.0.1
  Soft Dependencies: jQuery 1.7+
  License: WTFPL 2.0
